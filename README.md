@@ -9,4 +9,5 @@ En esta parte se estudia las interrupciones por GPIO.
 **- Práctica B:**
 En esta otra parte las interrupciones se estuadian por timer.
 
-#
+#1.-Practica A
+
