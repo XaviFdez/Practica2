@@ -43,4 +43,5 @@ Serial.println("Interrupt Detached!");
 }
 }
 ```
+Respecto al funcionamineto de esta parte de la práctica consiste en ---- poner el cable en G18 Y LA OTRA EN EL GND EL CONTACTO EN ESTE ULTIMO GENERA LAS INTERRUPCIONES
 
