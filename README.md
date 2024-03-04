@@ -51,8 +51,8 @@ El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de
 
 Salidas que se obtienen en impresión en serie: 
 Se obtienen 2 salidas:
-- El de pulsaciones del boton.
-- El de desvinculación a los 60000 segundos.
+- La de pulsaciones del boton.
+- La de desvinculación a los 60000 segundos.
 
 # 2.-Práctica B
 
