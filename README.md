@@ -44,7 +44,12 @@ Serial.println("Interrupt Detached!");
 }
 }
 ```
-Respecto al funcionamineto de esta parte de la práctica consiste en ---- poner el cable en G18 Y LA OTRA EN EL GND EL CONTACTO EN ESTE ULTIMO GENERA LAS INTERRUPCIONES
+Respecto al funcionamineto del código ,de esta parte de la práctica consiste en la interrupción por GPIO, como se puede ver, las interrupciones en el código estan inicializadas en el Pin 18, para que se generen las interruciones, el programa mostrará las interrupciones que han sucedido.
+Cuando pasa 1 minuto o lo que es igual a 60000 milisegundos se desvincula las interrucpiones en el Pin assignado.
+
+El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de la ESP32 y la otra parte del cable junto al Pin GND, de esta manera se generaran las interrupciones,mostrandose el parpadeo del led del processador.
+
+---- poner el cable en G18 Y LA OTRA EN EL GND EL CONTACTO EN ESTE ULTIMO GENERA LAS INTERRUPCIONES
 
 # 2.-Práctica B
 
