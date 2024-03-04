@@ -49,8 +49,6 @@ Cuando pasa 1 minuto o lo que es igual a 60000 milisegundos se desvincula las in
 
 El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de la ESP32 y la otra parte del cable junto al Pin GND, de esta manera se generaran las interrupciones,mostrandose el parpadeo del led del processador.
 
----- poner el cable en G18 Y LA OTRA EN EL GND EL CONTACTO EN ESTE ULTIMO GENERA LAS INTERRUPCIONES
-
 # 2.-Práctica B
 
 ```c++
