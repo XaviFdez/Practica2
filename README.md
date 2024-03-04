@@ -49,6 +49,11 @@ Cuando pasa 1 minuto o lo que es igual a 60000 milisegundos se desvincula las in
 
 El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de la ESP32 y la otra parte del cable junto al Pin GND, de esta manera se generaran las interrupciones,mostrandose el parpadeo del led del processador.
 
+Salidas que se obtienen en impresión en serie: 
+Se obtienen 2 salidas:
+- El de pulsaciones el boton.
+- El de desvinculación a los 60000 segundos.
+
 # 2.-Práctica B
 
 ```c++
