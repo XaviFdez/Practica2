@@ -1,4 +1,4 @@
-# Practica 2 : INTERRUPCIONES
+# Práctica 2 : INTERRUPCIONES
 
 En esta segunda práctica se trabaja las interrupciones, dispondremos de 2 leds para llevarla a cabo, ademas deL microcontrolador ESP32.
 
@@ -10,7 +10,7 @@ En esta parte se estudia las interrupciones por GPIO.
 **- Práctica B:**
 En esta otra parte las interrupciones se estuadian por timer.
 
-# 1.-Practica A
+# 1.-Práctica A
 
 ```c++
 struct Button {
