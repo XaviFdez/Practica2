@@ -85,4 +85,5 @@ Serial.println(totalInterruptCounter);
 }
 ```
 La segunda parte, se basa en la interrupción por timer o por temporizador, en relación al código, el programa muestra las interrupciones generadas en por el (timer), que en este caso está 1000000 microsegundos que es igual a cada 1 segundo, cada interrupción.
-El total las mostrará por el puerto serie.
+
+El total de interrupciones las mostrará por el puerto serie.
