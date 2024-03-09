@@ -1,6 +1,6 @@
 # Práctica 2 : INTERRUPCIONES
 
-En esta segunda práctica se trabajan las interrupciones, dispondremos de 2 leds para llevarla a cabo, ademas del microcontrolador ESP32.
+En esta segunda práctica se trabajan las interrupciones, dispondremos de 2 leds para llevarla a cabo, además del microcontrolador ESP32.
 
 La práctica incluye de 2 partes:
 
