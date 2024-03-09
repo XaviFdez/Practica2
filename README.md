@@ -5,7 +5,7 @@ En esta segunda práctica se trabajan las interrupciones, dispondremos de 2 leds
 La práctica incluye de 2 partes:
 
 **- Práctica A:**
-En esta parte se estudia las interrupciones por GPIO.
+En esta parte se estudian las interrupciones por GPIO.
 
 **- Práctica B:**
 En esta otra parte las interrupciones se estudian por timer.
