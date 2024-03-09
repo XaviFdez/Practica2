@@ -44,10 +44,10 @@ Serial.println("Interrupt Detached!");
 }
 }
 ```
-Respecto al funcionamiento del código ,de esta parte de la práctica consiste en la interrupción por GPIO, como se puede ver, las interrupciones en el código estan inicializadas en el Pin 18, para que se generen las interruciones, el programa mostrará las interrupciones que han sucedido.
+Respecto al funcionamiento del código ,de esta parte de la práctica consiste en la interrupción por GPIO, cómo se puede ver, las interrupciones en el código estan inicializadas en el Pin 18, para que se generen las interrupciones, el programa mostrará las interrupciones que han sucedido.
 Cuando pasa 1 minuto o lo que es igual a 60000 milisegundos se desvinculan las interrupciones en el Pin assignado.
 
-El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de la ESP32 y la otra parte del cable junto al Pin GND, de esta manera se generarán las interrupciones,mostrándose el parpadeo del led del processador.
+El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de la ESP32 y la otra parte del cable junto al Pin GND, de esta manera se generarán las interrupciones,mostrándose el parpadeo del led del procesador.
 
 Salidas que se obtienen en impresión en serie: 
 Se obtienen 2 salidas:
