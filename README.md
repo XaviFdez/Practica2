@@ -44,7 +44,7 @@ Serial.println("Interrupt Detached!");
 }
 }
 ```
-### Funcionamiento y salidas del código 
+### Funcionamiento y salidas:
 
 Respecto al funcionamiento del código ,de esta parte de la práctica consiste en la interrupción por GPIO, cómo se puede ver, las interrupciones en el código estan inicializadas en el Pin 18, para que se generen las interrupciones, el programa mostrará las interrupciones que han sucedido.
 Cuando pasa 1 minuto o lo que es igual a 60000 milisegundos se desvinculan las interrupciones en el Pin asignado.
@@ -86,7 +86,7 @@ Serial.println(totalInterruptCounter);
 }
 }
 ```
-## Funcionamiento y salidas:
+### Funcionamiento y salidas:
 
 La segunda parte, se basa en la interrupción por timer o por temporizador, en relación al código, el programa muestra las interrupciones generadas por el timer, que en este caso está a 1000000 microsegundos que es igual a cada 1 segundo, cada interrupción.
 
