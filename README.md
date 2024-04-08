@@ -54,8 +54,10 @@ El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de
 
 Salidas que se obtienen en impresión en serie: 
 Se obtienen 2 salidas:
+````
 - La de pulsaciones del botón.
 - La de desvinculación a los 60000 segundos.
+````
 
 # 2.-Práctica B
 
@@ -91,4 +93,7 @@ Serial.println(totalInterruptCounter);
 
 La segunda parte, se basa en la interrupción por timer o por temporizador, en relación al código, el programa muestra las interrupciones generadas por el timer, que en este caso está a 1000000 microsegundos que es igual a cada 1 segundo, cada interrupción.
 
+La salida por el puerto serie es: 
+```
 El total de interrupciones las mostrará por el puerto serie.
+```
