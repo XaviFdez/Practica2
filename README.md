@@ -56,6 +56,8 @@ Salidas que se obtienen en impresión en serie:
 ````
 -
 ````
+### Especificaciones del código
+setup....
 
 # 2.-Práctica B
 
@@ -95,3 +97,4 @@ La salida por el puerto serie es:
 ```
 mm
 ```
+### Especificaciones del código
