@@ -53,10 +53,8 @@ Cuando pasa 1 minuto o lo que es igual a 60000 milisegundos se desvinculan las i
 El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de la ESP32 y la otra parte del cable junto al Pin GND, de esta manera se generarán las interrupciones,mostrándose el parpadeo del led del procesador.
 
 Salidas que se obtienen en impresión en serie: 
-Se obtienen 2 salidas:
 ````
-- La de pulsaciones del botón.
-- La de desvinculación a los 60000 segundos.
+-
 ````
 
 # 2.-Práctica B
@@ -95,5 +93,5 @@ La segunda parte, se basa en la interrupción por timer o por temporizador, en r
 
 La salida por el puerto serie es: 
 ```
-El total de interrupciones las mostrará por el puerto serie.
+mm
 ```
