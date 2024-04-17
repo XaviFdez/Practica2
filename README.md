@@ -54,10 +54,21 @@ El funcionamiento práctico consiste en poner el cable en el puerto G18 (PIN) de
 
 Salidas que se obtienen en impresión en serie: 
 ````
--
+Button 1 has been pressed 1 times
+Button 1 has been pressed 2 times
+Button 1 has been pressed 3 times
+Button 1 has been pressed 4 times
 ````
 ### Especificaciones del código
-setup....
+El código proporciona una estructura de datos donde incluyen las siguientes variables:
+- El PIN al que está conectado (*const uint8_t PIN;*)
+- Contador de veces (*uint32_t numberKeyPresses;*)
+- Indicador si el botón está presionado (*bool pressed;*)
+
+Además también se disponen de 3 funciones:
+-*Función de interrupción (ISR):* Tiene la funcionalidad de incrementar el contador de presiones del botón y establece el indicador pressed como verdadero.
+-*Función setup():* se configura el pin del botón como entrada con resistencia de pull-up interna y se adjunta la ISR al pin del botón.
+-*Función loop():* comprueba si el botón ha sido presionado.
 
 # 2.-Práctica B
 
@@ -95,6 +106,12 @@ La segunda parte, se basa en la interrupción por timer o por temporizador, en r
 
 La salida por el puerto serie es: 
 ```
-mm
+An interrupt as occurred. Total number: 1
+An interrupt as occurred. Total number: 2
+An interrupt as occurred. Total number: 3
 ```
 ### Especificaciones del código
+Esta parte del codigo tambien incluye las siguientes funcionalidades:
+-*Función de Interrupción del Temporizador (ISR)* : Se encarga de incrementar las interrupciones dentro de una sección crítica.
+-*Función setup():* se configura el temporizador para generar una interrupción cada 1 segundo y, finalmente, se habilitan las interrupciones del temporizador.
+-*Función loop():* se comprueba si se ha producido alguna interrupción del temporizador. Si se ha producido, se decrementa interruptCounter, se incrementa totalInterruptCounter.
