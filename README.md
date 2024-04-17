@@ -66,9 +66,9 @@ El código proporciona una estructura de datos donde incluyen las siguientes var
 - Indicador si el botón está presionado (*bool pressed;*)
 
 Además también se disponen de 3 funciones:
--*Función de interrupción (ISR):* Tiene la funcionalidad de incrementar el contador de presiones del botón y establece el indicador pressed como verdadero.
--*Función setup():* se configura el pin del botón como entrada con resistencia de pull-up interna y se adjunta la ISR al pin del botón.
--*Función loop():* comprueba si el botón ha sido presionado.
+- *Función de interrupción (ISR):* Tiene la funcionalidad de incrementar el contador de presiones del botón y establece el indicador pressed como verdadero.
+- *Función setup():* se configura el pin del botón como entrada con resistencia de pull-up interna y se adjunta la ISR al pin del botón.
+- *Función loop():* comprueba si el botón ha sido presionado.
 
 # 2.-Práctica B
 
@@ -112,6 +112,6 @@ An interrupt as occurred. Total number: 3
 ```
 ### Especificaciones del código
 Esta parte del codigo tambien incluye las siguientes funcionalidades:
--*Función de Interrupción del Temporizador (ISR)* : Se encarga de incrementar las interrupciones dentro de una sección crítica.
--*Función setup():* se configura el temporizador para generar una interrupción cada 1 segundo y, finalmente, se habilitan las interrupciones del temporizador.
--*Función loop():* se comprueba si se ha producido alguna interrupción del temporizador. Si se ha producido, se decrementa interruptCounter, se incrementa totalInterruptCounter.
+- *Función de Interrupción del Temporizador (ISR)* : Se encarga de incrementar las interrupciones dentro de una sección crítica.
+- *Función setup():* se configura el temporizador para generar una interrupción cada 1 segundo y, finalmente, se habilitan las interrupciones del temporizador.
+- *Función loop():* se comprueba si se ha producido alguna interrupción del temporizador. Si se ha producido, se decrementa interruptCounter, se incrementa totalInterruptCounter.
